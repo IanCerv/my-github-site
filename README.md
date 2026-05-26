@@ -1,6 +1,6 @@
 # my-github-site
 My first github project 
-## Hi , I'm in [11th grade] at [Energy Tech ]
+## Hi I'm Ian , I'm in [11th grade] at [Energy Tech ]
 ## About me 
 I enjoy : [ Listening to music , Playing soccer , and Sketching ]
 ## Why im taking this Course
