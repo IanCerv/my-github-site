@@ -6,4 +6,4 @@ I enjoy : [ Listening to music , Playing soccer , and Sketching ]
 ## Why im taking this Course
 [My goal is to become a future mechanical engineer ]
 ## What i want to build 
-[I would like to build an app by the end of this unit ]
+[Not sure yet ]
