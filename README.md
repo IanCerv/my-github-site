@@ -7,3 +7,5 @@ I enjoy : [ Listening to music , Playing soccer , and Sketching ]
 [My goal is to become a future mechanical engineer ]
 ## What i want to build 
 [Not sure yet ]
+## Collaborator: Joaquin
+One rule that is most important when utilizing AI for coding is to make sure you understand how the AI is changing the code.
