@@ -32,6 +32,25 @@
         margin-bottom: 20px;
       }
 
+      /* Image and GIF Styling */
+      .media-container {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+      }
+      .custom-media {
+        max-width: 100%;
+        width: 230px; /* Controls the size of your images */
+        height: auto;
+        border-radius: 8px; /* Rounds the corners slightly */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, opacity 0.3s;
+      }
+      .custom-media:hover {
+        transform: scale(1.03); /* Subtle zoom effect when hovered */
+      }
+
       /* Dark Mode Styles */
       body.dark-mode {
         background: #121212;
@@ -51,6 +70,10 @@
         background-color: #4f9fe3;
         color: #121212;
       }
+      body.dark-mode .custom-media {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        opacity: 0.9; /* Slightly dims bright images in dark mode for eye comfort */
+      }
     </style>
   </head>
   <body>
@@ -60,13 +83,21 @@
     <h1>Hi, I'm Ian C!</h1>
  
     <h2>About Me</h2>
-    <p> I am a junior in E-Tech Highschool taking early college cources at LaGuardia community college.I'm determind to get my bachelor's degree in college in order to start my engineering career that i wish to achieve. Even though I'm still figuring out what my future plans for college are that will be my current objective for now. </p>
+    <p> I am a junior in E-Tech Highschool </p>
  
     <h2>My Interests</h2>
-    <p> A couple of my interests are , soccer , sketching , and listening to music.   </p>
+    <p> A couple of my interests are , soccer , sketching , and listening to music </p>
+    
+    <!-- Media Section for Photos and GIFs -->
+    <div class="media-container">
+      <!-- Replace the 'src' URLs below with your own photo or GIF file paths/links -->
+      <img class="custom-media" src="https://unsplash.com" alt="Soccer ball on a field">
+      <img class="custom-media" src="https://unsplash.com" alt="Sketching artwork">
+      <img class="custom-media" src="https://unsplash.com" alt="Listening to music headphones">
+    </div>
  
     <h2>My Goals for This Course</h2>
-    <p> Im not sure yet but im hoping to figure that out soon once i get a good idea of how my project ends up looking. </p>
+    <p> Im not sure yet but im hoping to figure that out soon </p>
  
     <h2>My GitHub</h2>
     <p>Check out my projects: 
